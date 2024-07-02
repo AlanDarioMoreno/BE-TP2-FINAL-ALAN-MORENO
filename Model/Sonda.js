@@ -28,7 +28,7 @@ class Sonda {
       if (result.length > 0) {
         return result[0];
       } else {
-        throw new Error("No se encontro la sonda");
+        throw new Error("Número de sonda incorrecto");
       }
     } catch (error) {
       throw error;
